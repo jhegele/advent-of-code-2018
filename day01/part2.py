@@ -1,3 +1,6 @@
+# note that this solution is not well-optimized at all and will likely take a
+# little while to run
+
 # open the input file and read the contents into a list (list = array in Python)
 with open('./inputs/part1-2.txt') as file_input:
     freq_changes = file_input.readlines()
