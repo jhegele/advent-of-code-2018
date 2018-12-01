@@ -29,7 +29,6 @@ while True:
     # we reset it to 0 to start the list over again, otherwise we just
     # increment the index by 1 and continue.
     if freq_change_idx == len(freq_changes) - 1:
-        # print(len(freqs_seen), len(set(freqs_seen)))
         freq_change_idx = 0
     else:
         freq_change_idx += 1
